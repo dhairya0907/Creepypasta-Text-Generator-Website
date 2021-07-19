@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "Creepypasta-Text-Generator-Website",
+    "name": "Creepypasta - Text Generator",
     "slug": "Creepypasta-Text-Generator-Website",
+    "privacy": "unlisted",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
