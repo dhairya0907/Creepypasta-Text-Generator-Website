@@ -52,15 +52,12 @@
  <br/>
 </p>
 
- 
+There are two parts to the project. One is the <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator">Deep Learning model</a> which generates the text. The other is the <a href="https://creepypasta-demo.vercel.app/">website</a> which uses the model to generate text.
 
-This project is demonstration of how to use API in React project and how to Design simple website using React. I have used Haker News free api fot this demonstration, You can use any other API in same way.
+I have used <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator">Deep Learning model</a> to generate text. It is a <a href="https://en.wikipedia.org/wiki/Neural_network">Neural Network</a> which uses <a href="https://en.wikipedia.org/wiki/Recurrent_neural_network">Recurrent Neural Network</a> to generate text.
 
-Here's why I use Hacker News API and React :
-* I used Hacker News API because it's free to use and it updates in real time.
-* I used React Library to develop and Design web application beacuse it is easy to learn and easy to use.
-* React has geat developer tools.
-* A virtual DOM is used.
+I have hosted a model on  <a href="https://algorithmia.com/">Algorithmia</a> and used it's API to generate text.
+
 
 ### Built With
 * [React Native](https://reactnative.dev/)
@@ -68,39 +65,39 @@ Here's why I use Hacker News API and React :
 * [Deployed using Vercel](https://vercel.com/)
 
 ### What I learned
-* How to use API in React.
-* How to Design React web application.
-* How Sturcture React web appliction source code.
+* How to host Machine Learning models on Algorithmia.
+* How to to develop a website using React Native.
+* How to use Machine Learning model to generate text and display it on the website.
 
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To host web applictaion on user localhost follow below steps :
+To host web application on user localhost follow below steps :
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
+* Follow the steps to Train and Host Machine Learning Model on [Creepypasta - Text Generator](https://github.com/dhairya0907/Creepypasta-Text-Generator).
+
 * yarn
   ```sh
   npm install --global yarn
   ```
 
 ### Installation
-
-1. Get a free API Key at [https://github.com/HackerNews/API](https://github.com/HackerNews/API)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/dhairya0907/Hacker-News-API.git
+   git clone https://github.com/dhairya0907/Creepypasta-Text-Generator-Website.git
    ```
-3. Install YARN packages
+2. Install YARN packages
    ```sh
    yarn install
    ```
-4. Run on localhost
+3. Run on localhost
    ```sh
-   yarn start
+   yarn web
    ```
 
 <!-- ROADMAP -->
