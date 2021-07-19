@@ -17,23 +17,24 @@ import { Slider } from "react-native-elements";
 import { Ionicons } from "@expo/vector-icons";
 import { Audio } from "expo-av";
 import { AntDesign } from "@expo/vector-icons";
+import { Secrets_Algorithmia } from "./Secrets/Algorithmia";
 
 const { width, height } = Dimensions.get("window");
 const nextpage = new Audio.Sound();
 var Algorithmia = require("algorithmia");
 var allclient = [
-  "simRluXEdLGHF6pOs367Q2V64MH1",
-  "simlAMUVVN0FAH8Td71qnsAtX+i1",
-  "sim8j0Kys/hy6WvalGswwPQiS9T1",
-  "sim5p9oSwWlkYXeGUx71NwKFhjL1",
-  "simhgI9npGNF6voaYuVDz3ScRM91",
+  Secrets_Algorithmia.client_one,
+  Secrets_Algorithmia.client_two,
+  Secrets_Algorithmia.client_three,
+  Secrets_Algorithmia.client_four,
+  Secrets_Algorithmia.client_five,
 ];
 var allurl = [
-  "dhairya_0907/MLResearchProject/3.0.3",
-  "MLResearch/MLResearchProject/2.0.1",
-  "MLResearch1/MLResearchProject/2.0.1",
-  "MLResearch3/MLResearchProject/2.0.1",
-  "MLResearch4/MLResearchProject/2.0.1",
+  Secrets_Algorithmia.url_one,
+  Secrets_Algorithmia.url_two,
+  Secrets_Algorithmia.url_three,
+  Secrets_Algorithmia.url_four,
+  Secrets_Algorithmia.url_five,
 ];
 const removedChar = [
   " ",
