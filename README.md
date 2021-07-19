@@ -124,4 +124,4 @@ Dhairya Sharma - [@dhairya_0907](https://twitter.com/dhairya_0907) - dhairya.sha
 
 Project Github Link: [https://github.com/dhairya0907/Creepypasta-Text-Generator-Website](https://github.com/dhairya0907/Creepypasta-Text-Generator-Website)
 
-Project Web Appliction Link: [https://creepypasta-demo.vercel.app](https://creepypasta-demo.vercel.app)
+Project Web Application Link: [https://creepypasta-demo.vercel.app](https://creepypasta-demo.vercel.app)
