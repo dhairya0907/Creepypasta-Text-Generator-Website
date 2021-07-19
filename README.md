@@ -1,29 +1,29 @@
 <!-- PROJECT LOGO -->
 
 <p align="center">
-  <a href="https://hackernewsapi-demo.vercel.app/">
-    <img src="/Images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://creepypasta-demo.vercel.app/">
+    <img src="/Images/logo.png" alt="Logo" width="100" height="100">
   </a>
 
-  <h3 align="center">Hacker News API</h3>
+  <h3 align="center">Creepypasta - Text Generator(Website)</h3>
 
   <p align="center">
-    Api usage and Design demonstration using Hacker News Api and React.
+    Website which uses Deep Learning to generate horror stories.
     <br />
     <br />
-    <a href="https://hackernewsapi-demo.vercel.app/">View Demo</a>
+    <a href="https://creepypasta-demo.vercel.app/">View Demo</a>
     ·
-    <a href="https://github.com/dhairya0907/Hacker-News-API/issues">Report Bug</a>
+    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator">View Training Repo</a>
     ·
-    <a href="https://github.com/dhairya0907/Hacker-News-API/issues">Request Feature</a>
+    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/issues">Request Feature</a>
   </p>
 </p>
 
 <!-- PROJECT SHIELDS -->
 <div align="center">
-   <a target="_blank" href="https://github.com/dhairya0907/Hacker-News-API/blob/main/LICENSE"><img src="https://badgen.net/badge/license/MIT/blue"></a>
-  <a target="_blank" href=https://github.com/dhairya0907/Hacker-News-API/actions><img src="https://github.com/dhairya0907/Hacker-News-API/workflows/Build%20&%20Test/badge.svg"></a>
-  <a target="_blank" href=https://github.com/dhairya0907/Hacker-News-API/actions><img src="https://github.com/dhairya0907/Hacker-News-API/workflows/CodeQL/badge.svg"></a>
+   <a target="_blank" href="https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/blob/main/LICENSE"><img src="https://badgen.net/badge/license/MIT/blue"></a>
    <a target="_blank" href="https://www.linkedin.com/in/dhairyasharma0907/"><img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social"></a>&nbsp;
     <a target="_blank" href="https://twitter.com/dhairya_0907"><img src="https://img.shields.io/twitter/follow/dhairya_0907?label=Follow&style=social"></a>
 </div>
@@ -42,23 +42,12 @@
 
 <p align="center" >
    <a href="https://hackernewsapi-demo.vercel.app/">
-    <img alt="product mobile screenshot" src="/Images/Mobile_Screen_GIf.gif" />
- </a>
-<p  align="center">
-  Mobile Version
-  <br/>
- 
-</p>
-
-</p>
-<p align="center" >
-   <a href="https://hackernewsapi-demo.vercel.app/">
-    <img alt="product desktop screenshot" src="/Images/Desktop_Screen_GIf.gif"/>
+    <img alt="Creepypasta Website Demo" src="/Images/Desktop_Screen_GIf.gif"/>
     </a>
 
 </p>
 <p  align="center">
-  Desktop Version
+  Creepypasta Website Demo
   <br/>
  <br/>
 </p>
@@ -74,8 +63,8 @@ Here's why I use Hacker News API and React :
 * A virtual DOM is used.
 
 ### Built With
-* [React](https://reactjs.org/)
-* [Hacker News API](https://github.com/HackerNews/API)
+* [React Native](https://reactnative.dev/)
+* [Algorithmia](https://algorithmia.com/)
 * [Deployed using Vercel](https://vercel.com/)
 
 ### What I learned
