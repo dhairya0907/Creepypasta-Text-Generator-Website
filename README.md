@@ -106,14 +106,14 @@ This is an example of how to list things you need to use the software and how to
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/dhairya0907/Hacker-News-API/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/issues) for a list of proposed features (and known issues).
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya0907/Hacker-News-API/blob/main/LICENSE) for more information.
+Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya0907/Creepypasta-Text-Generator-Website/blob/main/LICENSE) for more information.
 
 
 
@@ -122,6 +122,6 @@ Distributed under the MIT License. See [`LICENSE`](https://github.com/dhairya090
 
 Dhairya Sharma - [@dhairya_0907](https://twitter.com/dhairya_0907) - dhairya.sharma532@gmail.com.com
 
-Project Github Link: [https://github.com/dhairya0907/Hacker-News-API](https://github.com/dhairya0907/Hacker-News-API)
+Project Github Link: [https://github.com/dhairya0907/Creepypasta-Text-Generator-Website](https://github.com/dhairya0907/Creepypasta-Text-Generator-Website)
 
-Project Web Appliction Link: [https://hackernewsapi-demo.vercel.app/](https://hackernewsapi-demo.vercel.app/)
+Project Web Appliction Link: [https://creepypasta-demo.vercel.app](https://creepypasta-demo.vercel.app)
