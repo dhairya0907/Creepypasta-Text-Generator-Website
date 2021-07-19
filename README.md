@@ -41,7 +41,7 @@
 ## About The Project
 
 <p align="center" >
-   <a href="https://hackernewsapi-demo.vercel.app/">
+   <a href="https://creepypasta-demo.vercel.app/">
     <img alt="Creepypasta Website Demo" src="/Images/Desktop_Screen_GIf.gif"/>
     </a>
 
