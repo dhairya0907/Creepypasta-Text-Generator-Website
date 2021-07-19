@@ -9,7 +9,7 @@ import {
   ImageBackground,
 } from "react-native";
 import * as Font from "expo-font";
-import { global } from "./global.js";
+import { global } from "../Supporting/global.js";
 import { Hoverable, Pressable } from "react-native-web-hover";
 import { Audio } from "expo-av";
 
@@ -30,9 +30,9 @@ export class SubOption extends Component {
 
   async componentDidMount() {
     await Font.loadAsync({
-      Morracle: require("./assets/Morracle.ttf"),
-      Happy: require("./assets/Happy-Ending.ttf"),
-      Bloody: require("./assets/BLOODY.ttf"),
+      Morracle: require("../assets/Morracle.ttf"),
+      Happy: require("../assets/Happy-Ending.ttf"),
+      Bloody: require("../assets/BLOODY.ttf"),
     });
     this.setState({ assetsLoaded: true });
     Dimensions.addEventListener("change", (e) => {
@@ -41,7 +41,7 @@ export class SubOption extends Component {
     });
     if (global.read) {
       await sound.loadAsync(
-        require("./assets/Horror-Whoosh-Swoosh-Sound-Effects.mp3")
+        require("../assets/Horror-Whoosh-Swoosh-Sound-Effects.mp3")
       );
     }
   }
@@ -82,7 +82,7 @@ export class SubOption extends Component {
 
     try {
       if (global.read == true) {
-        await nextpage.loadAsync(require("./assets/next-page-sound.mp3"));
+        await nextpage.loadAsync(require("../assets/next-page-sound.mp3"));
       }
       await nextpage.playAsync();
       nextpage.setIsLoopingAsync(false);
@@ -110,7 +110,7 @@ export class SubOption extends Component {
             justifyContent: "center",
             alignSelf: "center",
           }}
-          source={require("./assets/suboptionbackground.jpeg")}
+          source={require("../assets/suboptionbackground.jpeg")}
         >
           <View
             style={{

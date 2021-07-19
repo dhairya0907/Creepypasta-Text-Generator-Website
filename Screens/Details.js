@@ -9,7 +9,7 @@ import {
   ImageBackground,
 } from "react-native";
 import * as Font from "expo-font";
-import { global } from "./global.js";
+import { global } from "../Supporting/global.js";
 import { Audio } from "expo-av";
 
 const { width, height } = Dimensions.get("window");
@@ -25,9 +25,9 @@ export class Details extends Component {
 
   async componentDidMount() {
     await Font.loadAsync({
-      Morracle: require("./assets/Morracle.ttf"),
-      Happy: require("./assets/Happy-Ending.ttf"),
-      Bloody: require("./assets/BLOODY.ttf"),
+      Morracle: require("../assets/Morracle.ttf"),
+      Happy: require("../assets/Happy-Ending.ttf"),
+      Bloody: require("../assets/BLOODY.ttf"),
     });
     this.setState({ assetsLoaded: true });
     Dimensions.addEventListener("change", (e) => {
@@ -37,7 +37,7 @@ export class Details extends Component {
   }
   async gonextpage() {
     if (global.read == true) {
-      await nextpage.loadAsync(require("./assets/next-page-sound.mp3"));
+      await nextpage.loadAsync(require("../assets/next-page-sound.mp3"));
     }
     try {
       await nextpage.playAsync();
@@ -52,7 +52,7 @@ export class Details extends Component {
   }
   async goprvepage() {
     if (global.read == true) {
-      await nextpage.loadAsync(require("./assets/next-page-sound.mp3"));
+      await nextpage.loadAsync(require("../assets/next-page-sound.mp3"));
     }
     try {
       await nextpage.playAsync();
@@ -86,7 +86,7 @@ export class Details extends Component {
 
               alignSelf: "center",
             }}
-            source={require("./assets/detailbackground.png")}
+            source={require("../assets/detailbackground.png")}
           >
             <View
               style={{

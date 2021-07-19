@@ -10,7 +10,7 @@ import {
 } from "react-native";
 import * as Font from "expo-font";
 import { StatusBar } from "expo-status-bar";
-import { global } from "./global.js";
+import { global } from "../Supporting/global.js";
 import { FlatGrid } from "react-native-super-grid";
 import { ScrollView } from "react-native-gesture-handler";
 import { Hoverable, Pressable } from "react-native-web-hover";
@@ -81,9 +81,9 @@ export class Options extends Component {
 
   async componentDidMount() {
     await Font.loadAsync({
-      Morracle: require("./assets/Morracle.ttf"),
-      Happy: require("./assets/Happy-Ending.ttf"),
-      Bloody: require("./assets/BLOODY.ttf"),
+      Morracle: require("../assets/Morracle.ttf"),
+      Happy: require("../assets/Happy-Ending.ttf"),
+      Bloody: require("../assets/BLOODY.ttf"),
     });
     this.setState({ assetsLoaded: true });
     Dimensions.addEventListener("change", (e) => {
@@ -92,9 +92,9 @@ export class Options extends Component {
     });
     if (global.read) {
       await sound.loadAsync(
-        require("./assets/Horror-Whoosh-Swoosh-Sound-Effects.mp3")
+        require("../assets/Horror-Whoosh-Swoosh-Sound-Effects.mp3")
       );
-      await nextpage.loadAsync(require("./assets/next-page-sound.mp3"));
+      await nextpage.loadAsync(require("../assets/next-page-sound.mp3"));
     }
   }
 
@@ -131,7 +131,7 @@ export class Options extends Component {
             height: this.state.height,
             justifyContent: "center",
           }}
-          source={require("./assets/optionsbackground.jpeg")}
+          source={require("../assets/optionsbackground.jpeg")}
         >
           <ScrollView
             showsVerticalScrollIndicator={false}

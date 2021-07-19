@@ -1,11 +1,11 @@
 import { createAppContainer } from "react-navigation";
 import { createStackNavigator } from "react-navigation-stack";
-import Home from "./Home.js";
-import Introduction from "./Introduction.js";
-import Options from "./Options.js";
-import Details from "./Details.js";
-import SubOption from "./SubOption.js";
-import Writestory from "./Writestory.js";
+import Home from "./Screens/Home";
+import Introduction from "./Screens/Introduction.js";
+import Options from "./Screens/Options.js";
+import Details from "./Screens/Details.js";
+import SubOption from "./Screens/SubOption.js";
+import Writestory from "./Screens/Writestory.js";
 
 const AppNavigator = createStackNavigator(
   {

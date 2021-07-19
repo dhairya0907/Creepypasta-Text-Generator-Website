@@ -11,13 +11,13 @@ import {
   Animated,
 } from "react-native";
 import * as Font from "expo-font";
-import { global } from "./global.js";
+import { global } from "../Supporting/global.js";
 import { ScrollView } from "react-native-gesture-handler";
 import { Slider } from "react-native-elements";
 import { Ionicons } from "@expo/vector-icons";
 import { Audio } from "expo-av";
 import { AntDesign } from "@expo/vector-icons";
-import { Secrets_Algorithmia } from "./Secrets/Algorithmia";
+import { Secrets_Algorithmia } from "../Secrets/Algorithmia";
 
 const { width, height } = Dimensions.get("window");
 const nextpage = new Audio.Sound();
@@ -104,9 +104,9 @@ export class Writestory extends Component {
           : 10,
     });
     await Font.loadAsync({
-      Morracle: require("./assets/Morracle.ttf"),
-      Happy: require("./assets/Happy-Ending.ttf"),
-      Bloody: require("./assets/BLOODY.ttf"),
+      Morracle: require("../assets/Morracle.ttf"),
+      Happy: require("../assets/Happy-Ending.ttf"),
+      Bloody: require("../assets/BLOODY.ttf"),
     });
     this.setState({ assetsLoaded: true });
     if (this.state.isautomatic) {
@@ -290,7 +290,7 @@ export class Writestory extends Component {
   async gonextpage() {
     try {
       if (global.read == true) {
-        await nextpage.loadAsync(require("./assets/next-page-sound.mp3"));
+        await nextpage.loadAsync(require("../assets/next-page-sound.mp3"));
       }
       await nextpage.playAsync();
       nextpage.setIsLoopingAsync(false);
@@ -583,7 +583,7 @@ export class Writestory extends Component {
 
               alignSelf: "center",
             }}
-            source={require("./assets/writingpaper.png")}
+            source={require("../assets/writingpaper.png")}
           >
             {this.state.interactive ? (
               <View style={{ top: 65, left: 55 }}>

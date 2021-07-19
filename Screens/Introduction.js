@@ -13,7 +13,7 @@ import { Audio } from "expo-av";
 import { AntDesign } from "@expo/vector-icons";
 import { StatusBar } from "expo-status-bar";
 import TypeWriter from "react-native-typewriter";
-import { global } from "./global.js";
+import { global } from "../Supporting/global.js";
 
 const { width, height } = Dimensions.get("window");
 const sound = new Audio.Sound();
@@ -31,7 +31,7 @@ export class Introduction extends Component {
 
   async componentDidMount() {
     await Font.loadAsync({
-      satan: require("./assets/Zombified.ttf"),
+      satan: require("../assets/Zombified.ttf"),
     });
     this.setState({ assetsLoaded: true });
 
@@ -41,7 +41,7 @@ export class Introduction extends Component {
     });
 
     if (global.read == true) {
-      await nextpage.loadAsync(require("./assets/next-page-sound.mp3"));
+      await nextpage.loadAsync(require("../assets/next-page-sound.mp3"));
     }
 
     setTimeout(() => {
@@ -58,7 +58,7 @@ export class Introduction extends Component {
 
   async readsound() {
     if (global.read == true) {
-      await sound.loadAsync(require("./assets/IntroductionSpeach.mp3"));
+      await sound.loadAsync(require("../assets/IntroductionSpeach.mp3"));
       await sound.playAsync();
     }
   }
@@ -84,7 +84,7 @@ export class Introduction extends Component {
             height: this.state.height > 685 ? this.state.height : 690,
             justifyContent: "center",
           }}
-          source={require("./assets/introbackground.png")}
+          source={require("../assets/introbackground.png")}
         >
           <StatusBar hidden />
 
@@ -95,7 +95,7 @@ export class Introduction extends Component {
               height: 685,
               alignSelf: "center",
             }}
-            source={require("./assets/introtextbackground.gif")}
+            source={require("../assets/introtextbackground.gif")}
           >
             <View style={{ top: 80, left: 90, width: 380 }}>
               <TypeWriter
