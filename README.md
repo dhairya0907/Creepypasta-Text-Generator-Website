@@ -100,6 +100,18 @@ This is an example of how to list things you need to use the software and how to
    yarn web
    ```
 
+4. Opens browser on http://localhost:3000/
+
+**Note:** To avoid CORS issue while using Algorithmia, go to ```node_modules\algorithmia\lib``` and open file ```algorithm.js``` and change the line 
+```js 
+algorithmia.com/v1/algo/demo/Hello
+  ``` 
+  <p  align="center">to</p>
+
+  ```js
+  algorithmia.com/v1/web/algo/demo/Hello  <- CORS-enabled route
+  ```
+* Refer to [https://github.com/algorithmiaio/algorithmia-nodejs/issues/12](https://github.com/algorithmiaio/algorithmia-nodejs/issues/12) for more information.
 <!-- ROADMAP -->
 ## Roadmap
 
