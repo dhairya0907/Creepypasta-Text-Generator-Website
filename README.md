@@ -78,7 +78,6 @@ To host web application on user localhost follow below steps :
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * Follow the steps to Train and Host Machine Learning Model on [Creepypasta - Text Generator](https://github.com/dhairya0907/Creepypasta-Text-Generator).
 
 * yarn
